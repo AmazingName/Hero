@@ -11,6 +11,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         initView();
         setupView();
+
     }
 
     private void setupView() {
@@ -18,6 +19,10 @@ public class MainActivity extends AppCompatActivity {
     }
 
     private void initView() {
+        initfile();
+    }
+
+    private void initfile() {
 
     }
 }
